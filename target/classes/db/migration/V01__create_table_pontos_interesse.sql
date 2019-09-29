@@ -1,0 +1,6 @@
+CREATE TABLE ponto_interesse(
+	codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    coordenadax INT SIGNED NOT NULL,
+    coordenaday INT SIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
