@@ -6,5 +6,9 @@ Foi criado um WebService utilizando a linguagem Java assim juntamente framework 
 <ol> Cadastrar POI's </ol>
 
 ![screenshot 3](https://user-images.githubusercontent.com/10735013/65834060-8def4a80-e2ad-11e9-912d-df62ceebfb52.jpg)
+
+
+ <ol> Listar POI's </ol>
  
+  <ol> Buscar POI's por proximidade </ol>
  
