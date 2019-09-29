@@ -1,11 +1,21 @@
 <h1> xy-inc </h1>
 
 Serviço de Pontos de Interesse que permite ao usuário cadastrar pontos de interesse, buscar todos os pontos de interesse cadastrados e também realizar a busca por pontos de interesse próximo.
-Foi criado um WebService em linguagem Java se utilizando do framework Spring Boot em um modelo REST.
+Foi criado um WebService em linguagem Java se utilizando do framework Spring Boot em um modelo REST. 
+<br>
+A ferramenta Postman foi utilizada para executar e testar os serviços implementados.
 
 <ol> Cadastrar POI's </ol>
 
-![screenshot 3](https://user-images.githubusercontent.com/10735013/65834060-8def4a80-e2ad-11e9-912d-df62ceebfb52.jpg)
+Serviço criado para cadastrar pontos de interesse, chamado pela URI: http://localhost:8080/pontosInteresse utilizando o método HTTP POST.
+Necessário criar um Request Body com os atributos: nome, coordenadax, coordenaday.
+
+![screenshot 8](https://user-images.githubusercontent.com/10735013/65834351-677ede80-e2b0-11e9-9cb0-aa4e3d8f5a61.jpg)
+
+Como Response da requisição obtivemos o Status 201 Created, retornando o POI inserido.
+
+![screenshot 9](https://user-images.githubusercontent.com/10735013/65834399-c6445800-e2b0-11e9-94d0-b4b53862d880.jpg)
+
 
 
  <ol> Listar POI's </ol>
