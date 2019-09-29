@@ -16,13 +16,13 @@ Como Response da requisição obtivemos o Status 201 Created, retornando o POI i
 
 ![screenshot 9](https://user-images.githubusercontent.com/10735013/65834399-c6445800-e2b0-11e9-94d0-b4b53862d880.jpg)
 
- <ol> Listar POI's </ol>
+ <ol> <h2>Listar POI's </h2></ol>
  
 Serviço criado para buscar todos os pontos de interesse, chamado pela URI: http://localhost:8080/pontosInteresse utilizando o método HTTP GET.
  
  ![screenshot 4](https://user-images.githubusercontent.com/10735013/65834093-d870c700-e2ad-11e9-81d7-16c990681ace.jpg)
  
-  <ol> Buscar POI's por proximidade </ol>
+  <ol> <h2> Buscar POI's por proximidade</h2> </ol>
  
  Serviço criado para buscar pontos de interesse por proximidade definido por uma distância máxima, chamado pela URI: http://localhost:8080/pontosInteresse/buscarPontosProximo  utilizando o método HTTP GET.
  Necessário criar um Request Body com os atributos: codx, cody, pontoRerencia, distMax.
